@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "your-worker": {
+      "url": "https://your-worker.workers.dev/mcp/",
+      "type": "http",
+      "description": "your-worker 财经资讯站 MCP — 私递值钱的知识和信息。公开内容全文，付费内容仅标题+链接。"
+    }
+  }
+}
