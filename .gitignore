@@ -1,0 +1,22 @@
+node_modules/
+.wrangler/
+dist/
+coverage/
+.DS_Store
+
+# 环境变量与密钥（严禁提交）
+.env
+.env.*
+.dev.vars
+*.pem
+*.key
+
+# 编辑器 / 系统
+.idea/
+.vscode/
+*.swp
+*~
+
+# 临时/备份文件（不进仓库）
+*.bak*
+*_tmp.mjs

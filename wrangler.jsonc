@@ -1,0 +1,29 @@
+{
+  "name": "louisprive",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-08-10",
+  "compatibility_flags": ["nodejs_compat"],
+  "assets": {
+    "directory": "./static",
+    "binding": "ASSETS",
+    "not_found_handling": "none"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "louisprive-db",
+      "database_id": "REPLACE_WITH_D1_DATABASE_ID"
+    }
+  ],
+  "r2_buckets": [
+    {
+      "binding": "MEDIA",
+      "bucket_name": "louisprive-media"
+    }
+  ],
+  // 首次部署默认走 workers.dev 域名，不会与自有域名冲突；需要自定义域名时再配置 routes
+  "workers_dev": true,
+  "observability": {
+    "enabled": true
+  }
+}
